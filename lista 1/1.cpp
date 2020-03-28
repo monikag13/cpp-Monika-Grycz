@@ -1,16 +1,18 @@
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-  int n = 68, wynik = 1;
+	int i = 40, wynik = 1;
+	/*long int i = 40, wynik = 1;*/
 
-  for(int i=1; i<=n; i++)
-     {
-       wynik = wynik * i;
-       std::cout << wynik << std::endl;
-     }
-/* Zakres liczb int jest ograniczony (od -32768 do 32767), po pewnym czasie przeskakuje na minimalne wartosci (ujemne, następie 0).
-Mozna wydluzyc zakres dajac zmienną na long int. */
-  
-return 0;
+	for (i = 1; i <= 40; ++i)
+	{
+		wynik = wynik * i;
+		cout << wynik << endl;
+	}
+	return 0;
 }
+
+/* Błąd wynika z zakresu wartości typu int (-2147483648 ÷ 2147483647), który można wydłuzyć używając 'long int'*/
