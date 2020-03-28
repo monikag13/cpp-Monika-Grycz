@@ -2,7 +2,7 @@
 
 int main()
 {
-  long int n = 68, wynik = 1;
+  int n = 68, wynik = 1;
 
   for(int i=1; i<=n; i++)
      {
