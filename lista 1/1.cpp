@@ -9,9 +9,8 @@ int main()
        wynik = wynik * i;
        std::cout << wynik << std::endl;
      }
-/* Zakres liczb int jest ograniczony po jakims przeskakuje
-   na minimalne wartosc ( najpierw ujemne potem na 0 )
-   Mozna wydluzyc zakres dajac zmienne long int 
-*/
+/* Zakres liczb int jest ograniczony po jakims przeskakuje na minimalne wartosc ( najpierw ujemne potem na 0 ).
+Mozna wydluzyc zakres dajac zmienne long int. */
+  
 return 0;
 }
