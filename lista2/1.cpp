@@ -1,7 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <cmath>
-#include <climits>
 #include <algorithm>
 
 using namespace std;
