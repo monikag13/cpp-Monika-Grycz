@@ -4,10 +4,9 @@ using namespace std;
 
 int main()
 {
-	int wynik = 1;
-	/*long int i = 40, wynik = 1;*/
+	int n = 68, wynik = 1;
 
-	for (int i = 1; i <= 40; ++i)
+	for (int i = 1; i <= n; ++i)
 	{
 		wynik = wynik * i;
 		cout << wynik << endl;
@@ -15,4 +14,4 @@ int main()
 	return 0;
 }
 
- /* Błąd wynika z zakresu wartości typu int (-2147483648 ÷ 2147483647), który można wydłuzyć używając 'long int'*/
+/* Błąd wynika z zakresu wartości typu int (od -32768 do 32767), który można wydłuzyć używając 'long int'*/
