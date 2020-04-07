@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-	int i = 40, wynik = 1;
+	int wynik = 1;
 	/*long int i = 40, wynik = 1;*/
 
-	for (i = 1; i <= 40; ++i)
+	for (int i = 1; i <= 40; ++i)
 	{
 		wynik = wynik * i;
 		cout << wynik << endl;
