@@ -10,7 +10,6 @@ AnalogClock::AnalogClock(QWidget *parent)
     QTimer *timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, QOverload<>::of(&AnalogClock::update));
     timer->start(1000);
-//! [6]
     setWindowTitle(tr("zegar"));
     resize(400, 400);
     setToolTip("pomoc");
