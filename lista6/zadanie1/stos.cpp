@@ -48,7 +48,7 @@ void Stos::push_noinline(int n)
 }
 
 
-void Stos::_shrink(void)  // (void) sygnalizuje brak parametru 
+void Stos::_shrink(void)  
 {
 	assert(_capacity >= 4);
 
