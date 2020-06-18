@@ -26,7 +26,7 @@ class Stos
 	private:
 		enum { initial_capacity = 1 };
 		void _grow();
-		void _shrink(void);   // zalecenie
+		void _shrink(void);   
 
 	size_t _capacity;
 	size_t _size;
