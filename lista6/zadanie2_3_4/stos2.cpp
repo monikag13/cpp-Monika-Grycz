@@ -18,18 +18,18 @@ CStack::CStack(const CStack& stack) : mTop(0), mSize(0)
 
 CStack::~CStack()
 {
-	clear(); // usuniecie elementow ze stosu gdyby cos pozostalo
+	clear(); // usuniecie elementow ze stosu, gdyby cos pozostalo
 }
 
 
-// metod zdejmuje wszystkie wartosci ze stosu (czysci stos)
+// metoda zdejmuje wszystkie wartosci ze stosu (czysci stos)
 void CStack::clear()
 {
 	while (mTop)
 		pop();
 };
 
-// metoda kopiuje liste na stos, jest to (prywatna poniewaz struktura SItem jest prywatna)
+// metoda kopiuje liste na stos, (prywatna poniewaz struktura SItem jest prywatna)
 void CStack::push(SItem* item)
 {
 	if (item)  
